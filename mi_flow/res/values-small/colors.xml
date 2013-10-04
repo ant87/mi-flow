@@ -1,0 +1,12 @@
+
+<resources> 
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="background_dark_color">#17384B</color>
+     <color name="background_light_color">#5F8EAC</color>
+      <color name="red_color">#780002</color>
+      <color name="text_history_color">#C70100</color>
+       <color name="button_green_color">#197B30</color>
+        <color name="button_blue_color">#7DA7D9</color>
+      
+    
+</resources>

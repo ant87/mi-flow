@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mi-flow</string>
+    <string name="action_settings">Settings</string>
+    <string name="overview">overview</string>
+    <string name="introduction">AN AID TO DIAGNOSING YOUR URINARY PROBLEMS</string>
+    <string name="welcome_message">welcome back John</string>
+    
+
+</resources>
