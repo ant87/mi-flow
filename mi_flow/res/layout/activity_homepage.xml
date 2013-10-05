@@ -16,10 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="@string/app_name"
-            android:textColor="@color/title_colour"
-            android:textSize="@dimen/text_size_large"
-            android:textStyle="bold" />
+            style="@style/title" />
 
         <TextView
             android:id="@+id/textView3"
@@ -202,6 +199,7 @@
 
     <Button
         android:id="@+id/button5"
-        style="@style/main_button" />
+        style="@style/main_button"
+          android:text="SUMMARY"  />
 
 </LinearLayout>
