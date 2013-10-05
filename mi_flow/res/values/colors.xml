@@ -13,6 +13,8 @@
          <color name="screen_name_colour">#64D1F0</color>
        
           <color name="text_category_button_colour">#A6ABAF</color>
+          
+          <color name="app_background">#FFF</color>
       
     
 </resources>

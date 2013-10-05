@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+   
     android:orientation="vertical"
     tools:context=".HomepageActivity" >
 
@@ -202,16 +202,6 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:background="@color/button_main_colour"
-        android:gravity="top|center_horizontal"
-        android:paddingBottom="32dp"
-        android:paddingTop="22dp"
-        android:text="SUMMARY"
-        android:textColor="@color/button_text_color"
-        android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
+        style="@style/main_button" />
 
 </LinearLayout>
