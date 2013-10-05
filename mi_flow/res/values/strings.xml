@@ -6,6 +6,7 @@
     <string name="overview">overview</string>
     <string name="introduction">AN AID TO DIAGNOSING URINARY PROBLEMS</string>
     <string name="homepage">HOMEPAGE</string>
-    
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

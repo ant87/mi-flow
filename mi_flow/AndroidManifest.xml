@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mi_flow"
+<manifest package="com.example.mi_flow"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -12,23 +11,27 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_xclock"
         android:label="@string/app_name"
-        android:theme="@style/global">
+        android:theme="@style/global" >
         <activity
             android:name="com.example.mi_flow.HomepageActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+           
         </activity>
         <activity
             android:name="com.example.mi_flow.HistoryActivity"
             android:label="@string/app_name" >
             <intent-filter>
-               
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mi_flow.MainActivity"
+            android:label="@string/title_activity_main_activity1">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
         </activity>
     </application>
 
