@@ -7,7 +7,7 @@
     tools:context=".HomepageActivity" >
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        style="@style/screen_header"
         android:layout_height="@dimen/header_info_height" >
 
         <TextView
@@ -67,7 +67,7 @@
         android:src="@drawable/ic_history" />
     
      <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/list_item"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:clickable="true"
@@ -102,7 +102,7 @@
                  android:src="@drawable/ic_diary" />
     
      <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/list_item"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:gravity="center_horizontal"
@@ -145,7 +145,7 @@
         android:src="@drawable/ic_flow" />
 
      <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/list_item"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:gravity="center_horizontal"
@@ -181,7 +181,7 @@
         android:src="@drawable/ic_advice" />
     
      <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/list_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/text_category_button_colour"

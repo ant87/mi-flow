@@ -8,5 +8,14 @@
     <string name="homepage">HOMEPAGE</string>
     <string name="title_activity_main_activity1">MainActivity1</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string-array name="sports_array">
+        <item>Not at all</item>
+        <item>Less than 1 in every 5 times</item>
+        <item>Less than half the time</item>
+         <item>More than half the time</item>
+          <item>Almost always</item>
+        
+    </string-array>
 
 </resources>

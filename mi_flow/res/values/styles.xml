@@ -2,13 +2,14 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
 
 
     <!-- Application theme. -->
     <style name="global" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowBackground">@color/app_background</item>
+         
     </style>
 
     <style name="main_button">
@@ -19,16 +20,21 @@
         <item name="android:gravity">top|center_horizontal</item>
         <item name="android:paddingBottom">33dp</item>
         <item name="android:paddingTop">23dp</item>
-      
         <item name="android:textColor">@color/button_text_color</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="title">
         <item name="android:text">@string/app_name</item>
         <item name="android:textColor">@color/title_colour</item>
         <item name="android:textSize">@dimen/text_size_large</item>
-         <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="screen_header">
+        <item name="android:layout_width">match_parent</item>
+       
     </style>
 
 </resources>

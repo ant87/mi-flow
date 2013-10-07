@@ -12,7 +12,7 @@
         android:layout_weight="1" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/list_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -27,14 +27,14 @@
             style="@style/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/textView1"
+            android:layout_above="@+id/list_item"
             android:layout_centerHorizontal="true" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView1"
+            android:layout_below="@+id/list_item"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:textColor="@color/title_colour"
